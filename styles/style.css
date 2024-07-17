@@ -21,7 +21,7 @@ button{
 }
 /* share style start */
 .container{
-    width: 90%;
+    width: 80%;
     margin: 5rem auto;
     color: white;
 }
@@ -44,7 +44,7 @@ header{
 
 /* nav style star */
 .nav-container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     color: white;
     padding-top: 5rem;
@@ -114,6 +114,7 @@ header{
 }
 
 .banner-img{
+    width: 30%;
     background-image: url(../images/Images\ 2.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -121,6 +122,48 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 580px;
-    
+    height: 580px;   
+    margin-right: 3rem;
 }
+
+.banner-card{
+    border: 1px solid white;
+    background-color:rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 23px;
+    border-radius: 12px;
+}
+.banner-card h2{
+    font-size: 2.5rem;
+}
+.banner-card h3{
+    font-size: 2.5rem;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+.banner-card p{
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.banner-card p, h2, h3{
+    margin: 0;
+}
+
+.banner-card-1{
+    margin-right: -300px;
+    margin-bottom: 100px;
+}
+
+.banner-card-2{
+    margin-right: 380px;
+    margin-top: 50px;
+}
+/* banner section end */
