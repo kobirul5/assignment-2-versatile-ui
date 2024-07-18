@@ -291,3 +291,41 @@ h3{
     width: 700px;
 }
 /* trainer section end */
+
+/* footer section start */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 4rem;
+    margin-bottom: 0;
+}
+
+.footer-content-title{
+    width: 40%;
+}
+.footer-content-title h1{
+    color: rgb(230, 83, 60);
+}
+.footer-content-get{
+    width: 40%;
+}
+.footer-content-get{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+#copy-right{
+    text-align: center;
+    height: 2.5rem;
+}
+/* footer section start */
