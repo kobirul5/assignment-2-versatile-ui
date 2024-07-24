@@ -79,6 +79,11 @@ h3{
     justify-content: space-between;
     align-items: center;
 }
+
+#nav-icons{
+    width: 5%;
+    display: none;
+}
 .nav-title h3{
     color: rgb(230, 83, 60);
     font-size: 2.25rem;
@@ -260,16 +265,23 @@ position: relative;
  /* start exercises section */
  .exercises-title-container{
     margin: 0 auto;
-    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+.exercise-title-font{
+    margin-bottom: 2rem;
+    width: 671px;
+}
+.exercise-title-font h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
 }
         /* exercise row 1 start */
 .exercises-row-1{
     display: grid;
-    grid-template-columns: 0.7fr 1.4fr .9fr;   
+    grid-template-columns: 0.7fr 1.4fr 0.9fr;   
 }
 .exercise-img-1{
     height: 250px;
@@ -459,6 +471,7 @@ td{
     justify-content: space-between;
     align-items: center;
 }
+
 hr{
     border: 2px solid rgba(255, 255, 255, 0.1);
     width: 80%;
@@ -498,9 +511,19 @@ hr{
         width: 100%;
     }
 
-
-    .nav-list{
+    .nav-container ul{
+        border: none;
+        padding: 0;
+        width: 100%;
+    }
+    .nav-list li{
         display: none;
+    }
+    #nav-icons{
+        width: 8%;
+        display: block;
+        margin-left: 90%;
+        cursor: pointer;
     }
 
     .banner-card-1{
@@ -596,6 +619,26 @@ hr{
         width: 90%;
     }
 
+    /* Trainings and Exercises section */
+    .exercise-title-font{
+        width: 90%;
+    }
+    .exercises-row-1{
+        grid-template-columns: 50% 0% 50%; 
+    }
+    .exercises-row-2{
+        grid-template-columns: 1.5fr 1.5fr 0fr; 
+    }
+
+    .exercise-img-1,
+    .exercise-img-3,
+    .exercise-img-4,
+    .exercise-img-5{
+        background-size: 200%;
+    }
+
+    /* Trainings and Exercises section end */
+
     .row-1,
     .row-2{
         grid-template-columns: 1fr;
@@ -618,8 +661,8 @@ hr{
         padding-bottom: 20px;
 
     }
-    .footer-content-get p{
-        margin: 0;
+    .footer-content-get h4{
+        margin-top:0.5rem;
     }
     .footer-content-title p{
         width: 310px;
@@ -640,6 +683,7 @@ hr{
         flex-direction: column;
         justify-content: center;
     }
+
     .banner-item,
     .banner-img{
         width: 90%;
