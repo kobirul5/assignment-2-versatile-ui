@@ -56,7 +56,7 @@ button{
 
 header{
     /* background-image: linear-gradient(rgb(14, 13, 13), rgba(119, 199, 119, 0)); */
-    background-image: linear-gradient(rgb(14, 13, 13), rgb(26, 23, 23), rgba(119, 199, 119, 0));
+    background-image: linear-gradient(rgb(7, 7, 7), rgb(31, 29, 29), rgba(119, 199, 119, 0));
 }
 
 
@@ -602,7 +602,9 @@ hr{
     .banner-img{
         width: 100%;
     }
-
+    .nav-container{
+        padding-top: 2.5rem;
+    }
     .nav-container ul{
         border: none;
         padding: 0;
