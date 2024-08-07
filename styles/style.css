@@ -19,7 +19,7 @@
     font-family: 'Miama', sans-serif;
     font-weight: 400;
     font-size: 9rem;
-    line-height: 4rem;
+    line-height: 7rem;
 }
 
 
@@ -61,7 +61,7 @@ header{
 
 
 .headers-font{
-    font-size: 3.6rem;
+    font-size: 3rem;
     font-weight: 900;
     
 }
@@ -232,6 +232,7 @@ position: relative;
     gap: 3rem;
     text-align: center;
 }
+
 .habit-p{
     width: 41rem;
 }
@@ -274,6 +275,9 @@ position: relative;
     font-size: 3.0rem;
     font-weight: 900;
 }
+.run-content p{
+    margin: 1.5rem 0;
+}
 
 .run-content img{
     width: 100%;
@@ -293,7 +297,7 @@ position: relative;
     width: 671px;
 }
 .exercise-title-font h3{
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 800;
     color: white;
 }
@@ -433,7 +437,7 @@ td{
     margin-top: 50px;
 }
 .bmi-h3{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 /*  BMI  Section end */
@@ -538,6 +542,7 @@ td{
 }
 .footer-content-title h1{
     color: rgb(230, 83, 60);
+    font-size: 4.4rem;
 }
 .footer-content-get{
     width: 40%;
@@ -546,6 +551,14 @@ td{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.footer-get h4{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+ 
+}
+.footer-get p{
+    font-size: 1.5rem;
 }
 .footer-get:hover{
     cursor: pointer;
@@ -671,7 +684,8 @@ hr{
         gap: 2rem;
     }
     .run-content h2{
-        font-size: 2.5rem;
+        font-size: 2rem;
+        width: 80%;
     }
     .run-btn{
         width: 100%;
@@ -691,6 +705,9 @@ hr{
     .bmi-title{
         width: 90%;
     }
+    .bmi-title h3{
+        font-size: 2rem;
+    }
     .bmi-title p{
         width: 90%;
     }
@@ -709,10 +726,14 @@ hr{
     #trainer-p{
         width: 90%;
     }
+    
 
     /* Trainings and Exercises section */
     .exercise-title-font{
         width: 90%;
+    }
+    .exercise-title-font h3{
+        font-size: 2rem;
     }
     .exercises-row-1{
         grid-template-columns: 50% 0% 50%; 
@@ -771,6 +792,9 @@ hr{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
+    .portfolio-title h2{
+        font-size: 2rem;
+    }
 /* extra end */
     
     .footer-container{
@@ -782,10 +806,12 @@ hr{
         display: block;
         padding-top: 20px;
         padding-bottom: 20px;
+        width: 90%;
 
     }
     .footer-content-get h4{
         margin-top:0.5rem;
+        
     }
     .footer-content-title p{
         width: 310px;
