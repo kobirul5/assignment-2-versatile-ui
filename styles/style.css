@@ -868,3 +868,18 @@ hr{
     }
 
 }
+
+@media screen and (min-width: 1440px){
+    .container,
+    .banner-container,
+    .bmi-title{
+        max-width: 1440px;
+    }
+    .banner-container,
+    .bmi-title{
+        margin: 5rem auto;
+    }
+    .bmi-title{
+        padding-left: 30rem;
+    }
+}
