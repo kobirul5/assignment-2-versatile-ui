@@ -673,6 +673,9 @@ hr{
     .run-content h2{
         font-size: 2.5rem;
     }
+    .run-btn{
+        width: 100%;
+    }
 
     .bmi-container{
         flex-direction: column;
@@ -684,6 +687,12 @@ hr{
     }
     .bmi-calculate{
         width: 100%;
+    }
+    .bmi-title{
+        width: 90%;
+    }
+    .bmi-title p{
+        width: 90%;
     }
     .bmi-calculate p{
         width: 80%;
@@ -707,16 +716,38 @@ hr{
     }
     .exercises-row-1{
         grid-template-columns: 50% 0% 50%; 
+        height: 200px;
+    }
+    .exercises-row-1 p,
+    .exercises-row-2 p{
+        margin-top: 50%;
+        margin-left: 25%;
     }
     .exercises-row-2{
-        grid-template-columns: 1.5fr 1.5fr 0fr; 
+        grid-template-columns: 1.4fr 1.6fr 0fr; 
+        height: 200px;
     }
 
-    .exercise-img-1,
-    .exercise-img-3,
-    .exercise-img-4,
-    .exercise-img-5{
+    .exercise-img-1{
+        margin: 0;
+        height: 200px;
+        background-size: 160%;
+    }
+    .exercise-img-3{
+        margin: 0;
+        height: 200px;
         background-size: 200%;
+    }
+    .exercise-img-4{
+        margin: 0;
+        height: 200px;
+        background-size: 200%;
+    }
+    .exercise-img-5{
+        margin: 0;
+        height: 200px;
+        background-size: 155%;
+
     }
 
     /* Trainings and Exercises section end */
