@@ -63,6 +63,8 @@ p, .table-font{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 14px;
+    line-height: 24px;
+    
 }
 h2{
     font-size: 3.0rem;
@@ -367,6 +369,23 @@ position: relative;
 /* exercise row 2 end */
 
 /*  BMI  Section start */
+.bmi {
+    margin-top: 5rem;
+}
+
+.bmi-title{
+    margin: 0 auto;
+    color: white;
+    width: 70%;
+
+}
+.bmi-title h3{
+    font-size: 48px;
+    font-weight: 900;
+}
+.bmi-title p{
+    width: 70%;
+}
 .bmi-container{
     display: flex;
     justify-content: space-between;
@@ -379,7 +398,7 @@ table{
     margin-top: 2rem;
 }
 td{
-    border: 2px solid rgb(14, 13, 13);
+    border:  1px solid rgba(255, 255, 255, 0.1);
     padding: 1rem;
 }
 .bmi-calculate{
@@ -459,10 +478,10 @@ td{
 /* trainer section end */
 /* extra  */
 .portfolio-bg{
-    padding: 3rem;
+    padding: 3rem 0;
 }
 .portfolio-container{
-    margin: 0;
+    margin: 0 auto;
 }
 
 .portfolio-title{
@@ -475,7 +494,7 @@ td{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 5rem;
+    gap: 3rem;
     justify-content: center;
     align-items: center;
 }
@@ -611,8 +630,8 @@ hr{
 
 
     .headers-font{
-        width: 80%;
-        font-size: 38px;
+        width: 90%;
+        font-size: 32px;
     }
 
     .habit-content p{
@@ -660,7 +679,10 @@ hr{
         width: auto;
     }
     .bmi-input{
-        grid-template-columns: 150px 150px;
+        grid-template-columns: 170px 170px;
+    }
+    .hide{
+        display: none;
     }
     #trainer-p{
         width: 90%;
@@ -730,7 +752,12 @@ hr{
 
 /* responsive for medium device start */
  @media screen and (min-width: 576px) and (max-width: 992px){
-    .container{
+    .container,
+    .banner-item,
+    .banner-img,
+    .habit-p,
+    .exercise-title-font,
+    #trainer-p{
         width: 90%;
     }
     .bmi-container,
@@ -739,11 +766,6 @@ hr{
     .footer-container{
         flex-direction: column;
         justify-content: center;
-    }
-
-    .banner-item,
-    .banner-img{
-        width: 90%;
     }
     .banner-card-1{
         margin-right: -200px;
@@ -757,7 +779,7 @@ hr{
         font-size: 1.5rem;
     }
     .banner-item h1{
-        font-size: 3rem;
+        font-size: 5rem;
     }
     
     .banner-card-2{
@@ -766,8 +788,10 @@ hr{
         padding: 10px;
     }
     .banner-btn{
+        margin-top: 1.8rem;
         display: flex;
-        justify-content: space-between;
+        justify-content: start;
+        gap: 4rem;
     }
     .banner-btn button{
         margin: 15px 0;
@@ -793,26 +817,30 @@ hr{
         font-size: 2rem;
         text-align: center;
     }
-
-    .habit-p{
-        width: 90%;
-    }
     .habit-content p{
         margin-bottom: 10px;        
     }
 
     .run-container{
-        gap: 10px;
+        gap: 4rem;
     }
 
     .run-content h2{
         font-size: 2.0rem;
         font-weight: 900;
     }
-    .run-content{
-        width:50%;
+    .run-content img{
+    width: 256px;
+    height: 319px;
+    }
+    .exercises-row-1,
+    .exercises-row-2{
+        height: 218px;
     }
 
+    .bmi-title{
+        width: 90%;
+    }
     .bmi-container,
     .footer-container{
         padding: 2rem 0;
@@ -823,10 +851,13 @@ hr{
 
     
     .bmi-input{
-        grid-template-columns: 275px 275px;
+        grid-template-columns: 336px 336px;
     }
     .portfolio-content{
         gap: 1rem;
     }
-    
+    .portfolio-title{
+        flex-direction: column;
+    }
+
 }
