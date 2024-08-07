@@ -172,8 +172,15 @@
                             <input type="text" placeholder="Height/cm">
                             <input type="text" placeholder="wight/kg">
                             <input type="text" placeholder="Age">
-                            <input type="date" placeholder="sex">
-                            <input class="activity-select" type="text" placeholder="Select an activity factor">
+                            <select id="sex">
+                                <option value="">Select</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <select name="activity" id="activity-facotr">
+                                <option value="activity">Select an activity factor</option>
+                            </select>
                         </div>
                         <button class="btn-primary">Calculate</button>
                     </div>
