@@ -526,6 +526,9 @@ td{
 .portfolio-card-1{
     grid-row: span 2;
 }
+.portfolio-description{
+    width: 60%;
+}
 /* extra  */
 
 /* footer section start */
@@ -797,6 +800,9 @@ hr{
     .portfolio-title h2{
         font-size: 2rem;
     }
+    .portfolio-description{
+        width: 95%;
+    }
 /* extra end */
     
     .footer-container{
@@ -931,14 +937,25 @@ hr{
     .portfolio-title{
         flex-direction: column;
     }
+    .portfolio-description{
+        width: 90%;
+    }
+    .footer-content-title{
+        width: 90%;
+    }
+    .footer-content-get{
+        margin-top: 2rem;
+        width: 90%;
+        justify-content: space-between;
+    }
 
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1940px){
     .container,
     .banner-container,
     .bmi-title{
-        max-width: 1440px;
+        max-width: 1940px;
     }
     .banner-container,
     .bmi-title{
